@@ -88,6 +88,7 @@ target_include_directories(osal
 install(
   TARGETS osal
   EXPORT OsalConfig
+  ARCHIVE DESTINATION lib
   )
 
 install(
